@@ -12,6 +12,10 @@ from uuid import uuid4
 import pandas as pd
 import plotly.express as px
 from streamlit_option_menu import option_menu
+import psycopg2
+from dotenv import load_dotenv
+from nomic import embed
+import boto3
 
 # --- Configuration ---
 BRD_DOCX_FOLDER = "brd_reports"
