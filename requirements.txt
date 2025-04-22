@@ -1,4 +1,8 @@
 streamlit
 requests
 python-docx
-chromadb
+psycopg2-binary
+nomic
+boto3
+python-dotenv
+plotly
